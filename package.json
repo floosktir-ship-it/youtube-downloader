@@ -1,0 +1,18 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "YouTube Video Downloader (720p)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
